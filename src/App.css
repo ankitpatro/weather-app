@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:100,200,300,300i,400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+body {
+  font-family: "Open Sans", serif;
+}
+
+.wrapper {
+  background: linear-gradient(to right, #aecbdf, #4d3ce7);
+  height: 200vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  height: 100vh;
+  background: rgb(63, 89, 149);
+  box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card {
+  position: relative;
+  /* display: flex; */
+  flex-direction: unset;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color:#1A237E;
+  background-clip: border-box;
+  border: 1px solid rgba(232, 221, 221, 0.125);
+  border-radius: 18px;
+  float: left;
+  text-align: center;
+  margin: 10px;
+  margin-top: 100px;
+  width: 18%;
+  color: beige;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #cee1f5;
+  border-color: #007bff;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-bottom: .5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  font-style: normal;
+  font-family: cursive;
+}
+
+input{
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.searchButton{
+  background-color: darkblue;
+    color: bisque;
+    border-radius: 3px;
+    border: aliceblue;
+    height: 36px;
+    border-radius: 7px;
+}
+.title{
+  font-family: cursive;
+  font-style: normal;
+  color: aliceblue;
+}
+
